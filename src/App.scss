@@ -1,0 +1,22 @@
+.App {
+  color:#EFEFEF;
+  h1.bg {
+    font-family: 'Lato-Regular';
+    font-size: 6vw;
+  }
+  h2.md {
+    font-family: 'Lato-LightItalic';
+    font-size: 3vw;
+  }
+}
+
+.App-header {
+  height: 80px;
+  display: flex;
+  font-size: calc(10px + 2vmin);
+  position: absolute;
+}
+
+.App-link {
+  color: #61dafb;
+}

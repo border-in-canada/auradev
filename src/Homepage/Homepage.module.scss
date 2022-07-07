@@ -1,0 +1,22 @@
+.Homepage {
+    h1 {
+        left: 195px;
+        position: absolute;
+        top: 0px;
+    }
+    h2 {
+        position: absolute;
+        right: 140px;
+        top: 400px;
+    }
+    img {
+        margin-top: -2px;
+        width: 100%;
+        vertical-align: top;
+    }
+    img.rotate {
+        transform: scaleY(-1);
+        -webkit-transform: scaleY(-1);
+        -moz-transform: scaleY(-1);
+    }
+}
