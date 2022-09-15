@@ -8,6 +8,8 @@ function App() {
     <div className={styles.App}>
       <img src="./02a.jpg" alt="Dumb & blurry" />
       <img className={styles.rotate} src="./02a.jpg" alt="Dumb & blurry" />
+      <img style={{marginTop: "-6px"}}src="./02a.jpg" alt="Dumb & blurry" />
+      <img className={styles.rotate} src="./02a.jpg" alt="Dumb & blurry" />
       <header className={styles.AppHeader}>
       </header>
       <main>

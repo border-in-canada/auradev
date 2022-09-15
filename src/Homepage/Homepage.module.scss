@@ -26,7 +26,33 @@
         }
     }
     .dates {
-        margin-left: 12%;
+        margin-left: 14%;
         width: 100%;
+    }
+
+    @media (max-width: 1180px) {
+        margin: 0 0 0 50px;
+        .theme {
+            justify-content: flex-start;
+        }
+        .iframes {
+            iframe {
+                margin-bottom: 1%;
+                width: 80%;
+            }
+        }
+        .dates {
+            margin-left: -10px;
+            text-align: center;
+        }
+    }
+
+    @media (max-width: 500px) {
+        margin: 0 0 0 20px;
+        .iframes {
+            iframe {
+                width: 90%;
+            }
+        }
     }
 }
