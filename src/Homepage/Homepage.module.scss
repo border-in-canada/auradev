@@ -1,22 +1,58 @@
 .Homepage {
-    h1 {
-        left: 195px;
-        position: absolute;
-        top: 0px;
+    margin: 0 150px;
+    top: 0;
+    position: absolute;
+    width: 95%;
+    .iframes {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 0;
+        iframe {
+            margin-bottom: 1%;
+            width: 50%;
+        }
     }
-    h2 {
-        position: absolute;
-        right: 140px;
-        top: 400px;
+    .theme {
+        display: flex;
+        justify-content: flex-end;
+        padding-bottom: 50px;
+        width: 80%;
     }
-    img {
-        margin-top: -2px;
+    .gallery {
+        padding: 12em;
+        width: 70%;
+        img {
+            width: 30%;
+        }
+    }
+    .dates {
+        margin-left: 14%;
         width: 100%;
-        vertical-align: top;
     }
-    img.rotate {
-        transform: scaleY(-1);
-        -webkit-transform: scaleY(-1);
-        -moz-transform: scaleY(-1);
+
+    @media (max-width: 1180px) {
+        margin: 0 0 0 50px;
+        .theme {
+            justify-content: flex-start;
+        }
+        .iframes {
+            iframe {
+                margin-bottom: 1%;
+                width: 80%;
+            }
+        }
+        .dates {
+            margin-left: -10px;
+            text-align: center;
+        }
+    }
+
+    @media (max-width: 500px) {
+        margin: 0 0 0 20px;
+        .iframes {
+            iframe {
+                width: 90%;
+            }
+        }
     }
 }
