@@ -17,6 +17,23 @@ body {
   src: local('Lato-LightItalic'), url(./fonts/Lato-LightItalic.ttf) format('truetype');
 }
 
+h1.bg {
+  font-family: 'Lato-Regular';
+  font-size: 5vw;
+}
+h2.md {
+  font-family: 'Lato-LightItalic';
+  font-size: 2.5vw;
+}
+h3.md {
+  font-family: 'Lato-LightItalic';
+  font-size: 2.5vw;
+}
+h4.md {
+  font-family: 'Lato-LightItalic';
+  font-size: 1vw;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
