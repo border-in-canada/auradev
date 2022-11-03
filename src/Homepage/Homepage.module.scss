@@ -36,7 +36,7 @@
     @media (max-width: 1180px) {
         margin: 0 0 0 50px;
         .theme {
-            justify-content: flex-start;
+            justify-content: flex-end;
         }
         .iframes {
             iframe {
@@ -45,6 +45,7 @@
             }
         }
         .dates {
+            width: 100%;
             margin-left: -10px;
             text-align: center;
         }
