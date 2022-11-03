@@ -41,8 +41,21 @@ h4.md {
   font-family: 'Lato-LightItalic';
   font-size: 1vw;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+@media (max-width: 768px) {
+  h1.bg {
+    font-size: 7vw;
+  }
+  h2.md {
+    font-size: 4.5vw;
+  }
+  h3.md {
+    font-size: 4.5vw;
+  }
+  h4.md {
+    font-size: 3vw;
+  }
 }
