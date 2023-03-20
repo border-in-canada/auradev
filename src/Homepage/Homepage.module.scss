@@ -1,62 +1,69 @@
 .Homepage {
-    margin: 0 0 0 150px;
-    top: 0;
-    position: absolute;
-    width: 90%;
-    .iframes {
-        display: flex;
-        flex-direction: column;
-        padding: 50px 0;
-        iframe {
-            margin-bottom: 1%;
-            width: 100%;
-        }
-    }
-    .theme {
-        display: flex;
-        justify-content: flex-end;
-        padding-bottom: 50px;
+    margin: 50px 70px;
+    iframe {
         width: 100%;
     }
     .gallery {
-        padding: 12em;
+        margin: 200px 0;
+        padding: 0 15% 50px;
+        position: relative;
         width: 70%;
         img {
-            width: 30%;
+            width: 33%;
+        }
+        h1 {
+            color: #F8F8F8;
+            font-size: 2.5vw;
+            position: absolute;
         }
     }
     .dates {
-        width: 50%;
+        margin: 100px 0;
+        width: 48%;
         div {
           display: flex;
           justify-content: space-between;
+          width: 100%;
         }
     }
-
-    @media (max-width: 1180px) {
-        margin: 0 0 0 50px;
-        .theme {
-            justify-content: flex-end;
-        }
-        .iframes {
-            iframe {
-                margin-bottom: 1%;
-                width: 80%;
-            }
-        }
+    h1.left {
+        top: 8%;
+        left: 21%;
+    }
+    h1.center {
+        color: black;
+        top: 40%;
+        left: 44%;
+    }
+    h1.right {
+        bottom: 15%;
+        right: 27%;
+    }
+}
+@media (max-width: 768px) {
+    .Homepage {
+        margin: 20px 20px;
         .dates {
+            margin: 20px 0 50px;
             width: 100%;
-            margin-left: -10px;
-            text-align: center;
         }
-    }
-
-    @media (max-width: 500px) {
-        margin: 0 0 0 20px;
-        .iframes {
-            iframe {
-                width: 90%;
-            }
+        .gallery {
+            margin: 20px 0 50px;
+            padding: 0;
+            width: 100%;
+        }
+        h1.left {
+            top: 10%;
+            left: 12%;
+        }
+        h1.center {
+            color: black;
+            top: 45%;
+            left: 47%;
+        }
+        h1.right {
+            bottom: 12%;
+            right: 13%;
         }
     }
 }

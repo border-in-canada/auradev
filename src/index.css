@@ -25,37 +25,65 @@ body {
   src: local('Lato-LightItalic'), url(./fonts/Lato-LightItalic.ttf) format('truetype');
 }
 
-h1.bg {
+h1 {
   font-family: 'Lato-Regular';
-  font-size: 5vw;
+  font-size: 4vw;
 }
-h2.md {
-  font-family: 'Lato-LightItalic';
-  font-size: 2.5vw;
+h2 {
+  font-size: 2vw;
 }
-h3.md {
-  font-family: 'Lato-LightItalic';
-  font-size: 2.5vw;
+h3 {
+  font-size: 1.6vw;
 }
-h4.md {
+h4 {
   font-family: 'Lato-LightItalic';
   font-size: 1vw;
+  margin: 7px 0;
+}
+.containerFull {
+  display: flex;
+  width: 100%;
+}
+.contentBox {
+  background: #F8F8F8;
+  box-sizing: border-box;
+  margin: 100px 20px 100px 0;
+  padding: 40px 75px 75px;
+}
+.halfWidth {
+  width: 50%;
+}
+.offset {
+  margin-left: 50%;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 @media (max-width: 768px) {
-  h1.bg {
-    font-size: 7vw;
+  .containerFull {
+    flex-direction: column;
   }
-  h2.md {
-    font-size: 4.5vw;
+  .halfWidth {
+    width: 100%;
   }
-  h3.md {
-    font-size: 4.5vw;
+  .offset {
+    margin-left: 0;
   }
-  h4.md {
-    font-size: 3vw;
+  .contentBox {
+    margin: 0 0 30px 0;
+    padding: 30px;
   }
+  h1 {
+    font-size: 6vw;
+  }
+  h2 {
+    font-size: 4vw;
+  }
+  h3 {
+    font-size: 2.5vw;
+  }
+  h4 {
+    font-size: 2vw;
+  }  
 }
