@@ -1,15 +1,22 @@
 .Header {
-    background-image: url("../../public/AuradevBanner.png");
+    background-image: url("../../public/AuradevBannerLarge.png");
     background-repeat: no-repeat;
     background-size: 100%;
     color: #EFEFEF;
     display: flex;
-    height: 500px;
-    padding: 0 70px;
+    height: 1000px;
+    padding: 0 120px;
+}
+@media (max-width: 1390px) {
+    .Header {
+        background-size: cover;
+    }
 }
 @media (max-width: 768px) {
     .Header {
-        height: 115px;
+        background-image: url("../../public/AuradevBannerTall.png");
+        background-size: cover;
+        height: 900px;
         padding: 0 20px;
     }
 }

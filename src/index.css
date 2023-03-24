@@ -60,6 +60,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@media (max-width: 1500px) {
+  h1 {
+    font-size: 8vw;
+  }
+  h2 {
+    font-size: 4vw;
+  }
+  h3 {
+    font-size: 3vw;
+  }
+  h4 {
+    font-size: 2vw;
+  }  
+}
+
 @media (max-width: 768px) {
   .containerFull {
     flex-direction: column;
@@ -75,15 +90,15 @@ code {
     padding: 30px;
   }
   h1 {
-    font-size: 6vw;
+    font-size: 10vw;
   }
   h2 {
-    font-size: 4vw;
+    font-size: 6vw;
   }
   h3 {
-    font-size: 2.5vw;
+    font-size: 5vw;
   }
   h4 {
-    font-size: 2vw;
+    font-size: 4vw;
   }  
 }
